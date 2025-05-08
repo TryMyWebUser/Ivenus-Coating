@@ -71,7 +71,7 @@
         <![endif]-->
         <div class="page-wrapper">
             <!-- preloader start -->
-            <div class="preloader"></div>
+            <!--<div class="preloader"></div>-->
             <!-- / preloader start -->
 
             <!-- ==== header start ==== -->
@@ -141,31 +141,31 @@
                                                         class="navbar__dropdown-label dropdown-label-alter">Our Products</a>
                                                     <ul class="navbar__sub-menu">
                                                         <li>
-                                                            <a href="details.php#1">1. Supply and Application of Anti-Corrosive Coatings</a>
+                                                            <a href="details.php#1">Supply and Application of Anti-Corrosive Coatings</a>
                                                         </li>
                                                         <li>
-                                                            <a href="details.php#2">2. Scaffolding Erection and Dismantling Works</a>
+                                                            <a href="details.php#2">Scaffolding Erection and Dismantling Works</a>
                                                         </li>
                                                         <li>
-                                                            <a href="details.php#3">3. High-Rise Civil Structure Painting and Repairing</a>
+                                                            <a href="details.php#3">High-Rise Civil Structure Painting and Repairing</a>
                                                         </li>
                                                         <li>
-                                                            <a href="details.php#4">4. Waterproofing Solutions for Structural Durability and Protection</a>
+                                                            <a href="details.php#4">Waterproofing Solutions for Structural Durability and Protection</a>
                                                         </li>
                                                         <li>
-                                                            <a href="details.php#5">5. Acid Resistance Painting Works</a>
+                                                            <a href="details.php#5">Acid Resistance Painting Works</a>
                                                         </li>
                                                         <li>
-                                                            <a href="details.php#6">6. Sandblasting and Shot Blasting Services for Surface Preparation</a>
+                                                            <a href="details.php#6">Sandblasting and Shot Blasting Services for Surface Preparation</a>
                                                         </li>
                                                         <li>
-                                                            <a href="details.php#7">7. Airless Spray Painting for Efficient and Uniform Coating Application</a>
+                                                            <a href="details.php#7">Airless Spray Painting for Efficient and Uniform Coating Application</a>
                                                         </li>
                                                         <li>
-                                                            <a href="details.php#8">8. Metalizing and Surface Repair Works for Enhanced Corrosion Resistance and Restoration</a>
+                                                            <a href="details.php#8">Metalizing and Surface Repair Works for Enhanced Corrosion Resistance and Restoration</a>
                                                         </li>
                                                         <li>
-                                                            <a href="details.php#9">9. Supply of All Paints & Chemicals</a>
+                                                            <a href="details.php#9">Supply of All Paints & Chemicals</a>
                                                         </li>
                                                     </ul>
                                                 </li>

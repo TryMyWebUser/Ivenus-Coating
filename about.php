@@ -143,6 +143,35 @@
                </div>
             </section>
             <!-- ==== / service section end ==== -->
+            
+            <!-- ==== team details section start ==== -->
+         <section class="team-details">
+            <div class="container">
+               <div class="row vertical-column-gap-lg">
+                  <div class="col-12 col-lg-5">
+                     <div class="team-details__thumb p-0" data-aos="fade-up" data-aos-duration="1200">
+                        <img src="assets/images/team/two3.png" style="height: 28rem; border-radius: 2rem; object-fit: fill;" alt="Image">
+                     </div>
+                  </div>
+                  <div class="col-12 col-lg-7" style="align-self: center;">
+                     <div class="team-details__content">
+                        <div class="about-me m-0">
+                           <div class="about-me__header">
+                              <h4 class="title-animation">Our Key Differentiators!</h4>
+                           </div>
+                           <div class="about-me__content" data-aos="fade-up" data-aos-duration="1200">
+                              <p>With over 14 years of experience in the industry, we are a multi-disciplinary painting company committed to delivering high-quality solutions. Our expertise covers a broad spectrum of services, including structural painting and repair, rehabilitation, restrengthening, as well as specialized services such as waterproofing, fireproofing, and acid-resistant painting.
+                              </p>
+                              <p>At IVCE, we prioritize understanding our clients' core values and consistently delivering services that meet their unique needs. This approach ensures that we not only meet but exceed expectations. Our leadership has successfully overseen numerous projects across India, fostering long-term relationships with our clients. Once you partner with IVCE, you will always be a valued client. This unwavering commitment to excellence and customer satisfaction has been the driving force behind our continuous growth.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- ==== / team details section end ==== -->
 
             <!-- ==== team details section start ==== -->
             <section class="team-details pt-0">

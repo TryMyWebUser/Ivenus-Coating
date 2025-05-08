@@ -26,8 +26,8 @@ include("header.php");
     <!-- ==== / banner end ==== -->
 
     <!-- ==== property details start ==== -->
-    <section class="property-details">
-        <div class="container">
+    <section class="property-details" style="background: url('https://i.pinimg.com/736x/e5/4d/33/e54d33ab4fb1b15d47b0df94f9094e87.jpg') no-repeat center center / cover;">
+        <div class="container" style="background: #fff; padding: 80px; border-radius: 2rem;">
             <style>
                 .vertical-column-gap-lg {
                     row-gap: 80px;
@@ -43,13 +43,13 @@ include("header.php");
                             </div>
                             <div class="property-details__content">
                                 <ul class="property-feature">
-                                    <li><i class="fa-solid fa-circle-dot"></i>Sand blasting</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Grit blasting</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Cleaning with Grinders / Sanders / Cup brush</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Fungal cleaning</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Shot blasting</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>High Pressure WaterJetting</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Cleaning with Acid</li>
+                                    <li><i class="fas fa-play-circle"></i>Sand blasting</li>
+                                    <li><i class="fas fa-play-circle"></i>Grit blasting</li>
+                                    <li><i class="fas fa-play-circle"></i>Cleaning with Grinders / Sanders / Cup brush</li>
+                                    <li><i class="fas fa-play-circle"></i>Fungal cleaning</li>
+                                    <li><i class="fas fa-play-circle"></i>Shot blasting</li>
+                                    <li><i class="fas fa-play-circle"></i>High Pressure WaterJetting</li>
+                                    <li><i class="fas fa-play-circle"></i>Cleaning with Acid</li>
                                 </ul>
                             </div>
                         </div>
@@ -65,15 +65,15 @@ include("header.php");
                             </div>
                             <div class="property-details__content">
                                 <ul class="property-feature">
-                                    <li><i class="fa-solid fa-circle-dot"></i>Coating with Epoxy-phenolic on rebar using CBRI technology</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Coating with Zinc-rich Epoxy primer</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Coating with Epoxy–Polyamide</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Coating with Micaceous iron-oxide based epoxy</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Coating with Polyurethane</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Coating with Epoxy-phenolic interpenetrating Network system</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Coating with Polyurea</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Coating with Epoxy-stearate food grade non-toxic</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Coating at Splash zone with Glass fibre impregnated</li>
+                                    <li><i class="fas fa-play-circle"></i>Coating with Epoxy-phenolic on rebar using CBRI technology</li>
+                                    <li><i class="fas fa-play-circle"></i>Coating with Zinc-rich Epoxy primer</li>
+                                    <li><i class="fas fa-play-circle"></i>Coating with Epoxy–Polyamide</li>
+                                    <li><i class="fas fa-play-circle"></i>Coating with Micaceous iron-oxide based epoxy</li>
+                                    <li><i class="fas fa-play-circle"></i>Coating with Polyurethane</li>
+                                    <li><i class="fas fa-play-circle"></i>Coating with Epoxy-phenolic interpenetrating Network system</li>
+                                    <li><i class="fas fa-play-circle"></i>Coating with Polyurea</li>
+                                    <li><i class="fas fa-play-circle"></i>Coating with Epoxy-stearate food grade non-toxic</li>
+                                    <li><i class="fas fa-play-circle"></i>Coating at Splash zone with Glass fibre impregnated</li>
                                 </ul>
                             </div>
                         </div>
@@ -89,33 +89,33 @@ include("header.php");
                             </div>
                             <div class="property-details__content">
                                 <ul class="property-feature">
-                                    <li><i class="fa-solid fa-circle-dot"></i>Guniting</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Epoxy Grouting</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Corrosion Control</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Epoxy Treatments</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Glass/Carbon Fibre Wrapping</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Micro Concreting</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Floor Coatings</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Epoxy modified mortar</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Joints/Cracks sealing</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Chemical resistant lining for floors</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Epoxy bond coat application</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Shotcreting</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>FRP Handrailing & Walkways providing & installation</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Structural waterproofing</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Underwater setting epoxy Sealant</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Underwater Cementitious Grouting</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Polymer modified concrete/mortar</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Structural bonding of old to new concrete</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Polymer modified cementitious grouting</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Epoxy Latex Repair, Bonding & Coating system</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Three component epoxy patching mortar</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Arresting of seepages & Leakages</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Anti-corrosive epoxy-phenolic repair system</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>RE Baring with various chemical anchors</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Various type of corrosion Protective coating</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Low viscosity high molecular weight grouting/impregnation</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Vibration control of T.G Foundation and Columns</li>
+                                    <li><i class="fas fa-play-circle"></i>Guniting</li>
+                                    <li><i class="fas fa-play-circle"></i>Epoxy Grouting</li>
+                                    <li><i class="fas fa-play-circle"></i>Corrosion Control</li>
+                                    <li><i class="fas fa-play-circle"></i>Epoxy Treatments</li>
+                                    <li><i class="fas fa-play-circle"></i>Glass/Carbon Fibre Wrapping</li>
+                                    <li><i class="fas fa-play-circle"></i>Micro Concreting</li>
+                                    <li><i class="fas fa-play-circle"></i>Floor Coatings</li>
+                                    <li><i class="fas fa-play-circle"></i>Epoxy modified mortar</li>
+                                    <li><i class="fas fa-play-circle"></i>Joints/Cracks sealing</li>
+                                    <li><i class="fas fa-play-circle"></i>Chemical resistant lining for floors</li>
+                                    <li><i class="fas fa-play-circle"></i>Epoxy bond coat application</li>
+                                    <li><i class="fas fa-play-circle"></i>Shotcreting</li>
+                                    <li><i class="fas fa-play-circle"></i>FRP Handrailing & Walkways providing & installation</li>
+                                    <li><i class="fas fa-play-circle"></i>Structural waterproofing</li>
+                                    <li><i class="fas fa-play-circle"></i>Underwater setting epoxy Sealant</li>
+                                    <li><i class="fas fa-play-circle"></i>Underwater Cementitious Grouting</li>
+                                    <li><i class="fas fa-play-circle"></i>Polymer modified concrete/mortar</li>
+                                    <li><i class="fas fa-play-circle"></i>Structural bonding of old to new concrete</li>
+                                    <li><i class="fas fa-play-circle"></i>Polymer modified cementitious grouting</li>
+                                    <li><i class="fas fa-play-circle"></i>Epoxy Latex Repair, Bonding & Coating system</li>
+                                    <li><i class="fas fa-play-circle"></i>Three component epoxy patching mortar</li>
+                                    <li><i class="fas fa-play-circle"></i>Arresting of seepages & Leakages</li>
+                                    <li><i class="fas fa-play-circle"></i>Anti-corrosive epoxy-phenolic repair system</li>
+                                    <li><i class="fas fa-play-circle"></i>RE Baring with various chemical anchors</li>
+                                    <li><i class="fas fa-play-circle"></i>Various type of corrosion Protective coating</li>
+                                    <li><i class="fas fa-play-circle"></i>Low viscosity high molecular weight grouting/impregnation</li>
+                                    <li><i class="fas fa-play-circle"></i>Vibration control of T.G Foundation and Columns</li>
                                 </ul>
                             </div>
                         </div>
@@ -131,12 +131,12 @@ include("header.php");
                             </div>
                             <div class="property-details__content">
                                 <ul class="property-feature">
-                                    <li><i class="fa-solid fa-circle-dot"></i>Pneumatic Airless spraying machines</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Plural component hot airless spraying equipment for Polyurethane & Polyurea</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>DFT Meters</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Electrically operated spraying machines</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Air Compressors</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Acrylic Putty spraying machines</li>
+                                    <li><i class="fas fa-play-circle"></i>Pneumatic Airless spraying machines</li>
+                                    <li><i class="fas fa-play-circle"></i>Plural component hot airless spraying equipment for Polyurethane & Polyurea</li>
+                                    <li><i class="fas fa-play-circle"></i>DFT Meters</li>
+                                    <li><i class="fas fa-play-circle"></i>Electrically operated spraying machines</li>
+                                    <li><i class="fas fa-play-circle"></i>Air Compressors</li>
+                                    <li><i class="fas fa-play-circle"></i>Acrylic Putty spraying machines</li>
                                 </ul>
                             </div>
                         </div>
@@ -152,8 +152,8 @@ include("header.php");
                             </div>
                             <div class="property-details__content">
                                 <ul class="property-feature">
-                                    <li><i class="fa-solid fa-circle-dot"></i>Diamond saw cutter – Petrol & Electrically operated machine</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Cutting, drilling, and demolishing tools</li>
+                                    <li><i class="fas fa-play-circle"></i>Diamond saw cutter – Petrol & Electrically operated machine</li>
+                                    <li><i class="fas fa-play-circle"></i>Cutting, drilling, and demolishing tools</li>
                                 </ul>
                             </div>
                         </div>
@@ -170,39 +170,39 @@ include("header.php");
                             <div class="property-details__content">
                                 <ul class="property-feature">
                                     <!-- Column 1 -->
-                                    <li><i class="fa-solid fa-circle-dot"></i>Sand blasting plants</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Cement grouting Tanks</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Underwater cementitious grouting Tanks</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Electrically operated demolition machine</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Electrically operated Jack Hammers</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Concrete mixer machine</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Concrete vibrator and needles</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Builders Hoist</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Jib cranes</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Leveling Instrument</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Theodolite</li>
+                                    <li><i class="fas fa-play-circle"></i>Sand blasting plants</li>
+                                    <li><i class="fas fa-play-circle"></i>Cement grouting Tanks</li>
+                                    <li><i class="fas fa-play-circle"></i>Underwater cementitious grouting Tanks</li>
+                                    <li><i class="fas fa-play-circle"></i>Electrically operated demolition machine</li>
+                                    <li><i class="fas fa-play-circle"></i>Electrically operated Jack Hammers</li>
+                                    <li><i class="fas fa-play-circle"></i>Concrete mixer machine</li>
+                                    <li><i class="fas fa-play-circle"></i>Concrete vibrator and needles</li>
+                                    <li><i class="fas fa-play-circle"></i>Builders Hoist</li>
+                                    <li><i class="fas fa-play-circle"></i>Jib cranes</li>
+                                    <li><i class="fas fa-play-circle"></i>Leveling Instrument</li>
+                                    <li><i class="fas fa-play-circle"></i>Theodolite</li>
                                     <!-- Column 2 -->
-                                    <li><i class="fa-solid fa-circle-dot"></i>Shotcreting plants</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Pneumatic motors</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Electric rotary hammer drilling machines</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Rock drilling machine with stand</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Reciprocating Testing pumps</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Submersible pumps</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Solid Block Casting machine</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Moving platforms / sky climbers (GONDOLAS)</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Pipe Bending machine</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>BSL Cup lock Steel scaffolding materials</li>
+                                    <li><i class="fas fa-play-circle"></i>Shotcreting plants</li>
+                                    <li><i class="fas fa-play-circle"></i>Pneumatic motors</li>
+                                    <li><i class="fas fa-play-circle"></i>Electric rotary hammer drilling machines</li>
+                                    <li><i class="fas fa-play-circle"></i>Rock drilling machine with stand</li>
+                                    <li><i class="fas fa-play-circle"></i>Reciprocating Testing pumps</li>
+                                    <li><i class="fas fa-play-circle"></i>Submersible pumps</li>
+                                    <li><i class="fas fa-play-circle"></i>Solid Block Casting machine</li>
+                                    <li><i class="fas fa-play-circle"></i>Moving platforms / sky climbers (GONDOLAS)</li>
+                                    <li><i class="fas fa-play-circle"></i>Pipe Bending machine</li>
+                                    <li><i class="fas fa-play-circle"></i>BSL Cup lock Steel scaffolding materials</li>
                                     <!-- Column 3 -->
-                                    <li><i class="fa-solid fa-circle-dot"></i>Guniting plants</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Epoxy Grouting Tanks</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Pneumatic drilling machines</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Pneumatic jack hammers</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Concrete scrubber</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>High head pumps</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Hydraulic jack and pumps</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Gantries</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Air compressors</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Single Mast Working Platform</li>
+                                    <li><i class="fas fa-play-circle"></i>Guniting plants</li>
+                                    <li><i class="fas fa-play-circle"></i>Epoxy Grouting Tanks</li>
+                                    <li><i class="fas fa-play-circle"></i>Pneumatic drilling machines</li>
+                                    <li><i class="fas fa-play-circle"></i>Pneumatic jack hammers</li>
+                                    <li><i class="fas fa-play-circle"></i>Concrete scrubber</li>
+                                    <li><i class="fas fa-play-circle"></i>High head pumps</li>
+                                    <li><i class="fas fa-play-circle"></i>Hydraulic jack and pumps</li>
+                                    <li><i class="fas fa-play-circle"></i>Gantries</li>
+                                    <li><i class="fas fa-play-circle"></i>Air compressors</li>
+                                    <li><i class="fas fa-play-circle"></i>Single Mast Working Platform</li>
                                 </ul>
                             </div>
                         </div>
@@ -218,19 +218,19 @@ include("header.php");
                             </div>
                             <div class="property-details__content">
                                 <ul class="property-feature">
-                                    <li><i class="fa-solid fa-circle-dot"></i>Polyurethane coatings</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Elastomeric acrylic coatings</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Polyurea coatings</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Polyurea hybrid coatings</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Injection Grouting</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Crystalline waterproofing system</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Cementitious coatings</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>SBR / Acrylic coatings</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Bituminous coatings</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>HDPE Membranes</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>EPDM membranes</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>PVC membranes</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Water repellents coatings</li>
+                                    <li><i class="fas fa-play-circle"></i>Polyurethane coatings</li>
+                                    <li><i class="fas fa-play-circle"></i>Elastomeric acrylic coatings</li>
+                                    <li><i class="fas fa-play-circle"></i>Polyurea coatings</li>
+                                    <li><i class="fas fa-play-circle"></i>Polyurea hybrid coatings</li>
+                                    <li><i class="fas fa-play-circle"></i>Injection Grouting</li>
+                                    <li><i class="fas fa-play-circle"></i>Crystalline waterproofing system</li>
+                                    <li><i class="fas fa-play-circle"></i>Cementitious coatings</li>
+                                    <li><i class="fas fa-play-circle"></i>SBR / Acrylic coatings</li>
+                                    <li><i class="fas fa-play-circle"></i>Bituminous coatings</li>
+                                    <li><i class="fas fa-play-circle"></i>HDPE Membranes</li>
+                                    <li><i class="fas fa-play-circle"></i>EPDM membranes</li>
+                                    <li><i class="fas fa-play-circle"></i>PVC membranes</li>
+                                    <li><i class="fas fa-play-circle"></i>Water repellents coatings</li>
                                 </ul>
                             </div>
                         </div>
@@ -246,15 +246,15 @@ include("header.php");
                             </div>
                             <div class="property-details__content">
                                 <ul class="property-feature">
-                                    <li><i class="fa-solid fa-circle-dot"></i>Epoxy Flooring</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Polyurethane Flooring</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Anti-static Flooring</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Self-leveling Screeds</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Non-slip floor coating</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Acid-resistant tile lining</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Concrete densifiers & sealers</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Heavy duty chemical resistant coating</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Polished concrete systems</li>
+                                    <li><i class="fas fa-play-circle"></i>Epoxy Flooring</li>
+                                    <li><i class="fas fa-play-circle"></i>Polyurethane Flooring</li>
+                                    <li><i class="fas fa-play-circle"></i>Anti-static Flooring</li>
+                                    <li><i class="fas fa-play-circle"></i>Self-leveling Screeds</li>
+                                    <li><i class="fas fa-play-circle"></i>Non-slip floor coating</li>
+                                    <li><i class="fas fa-play-circle"></i>Acid-resistant tile lining</li>
+                                    <li><i class="fas fa-play-circle"></i>Concrete densifiers & sealers</li>
+                                    <li><i class="fas fa-play-circle"></i>Heavy duty chemical resistant coating</li>
+                                    <li><i class="fas fa-play-circle"></i>Polished concrete systems</li>
                                 </ul>
                             </div>
                         </div>
@@ -270,15 +270,15 @@ include("header.php");
                             </div>
                             <div class="property-details__content">
                                 <ul class="property-feature">
-                                    <li><i class="fa-solid fa-circle-dot"></i>Elastomeric sealants</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Polyurethane sealants</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Silicone sealants</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Joint filler boards</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Preformed joint seals</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Compression seals</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Waterbars (PVC / Rubber / Steel)</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Epoxy grouts</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Movement accommodation sealant system</li>
+                                    <li><i class="fas fa-play-circle"></i>Elastomeric sealants</li>
+                                    <li><i class="fas fa-play-circle"></i>Polyurethane sealants</li>
+                                    <li><i class="fas fa-play-circle"></i>Silicone sealants</li>
+                                    <li><i class="fas fa-play-circle"></i>Joint filler boards</li>
+                                    <li><i class="fas fa-play-circle"></i>Preformed joint seals</li>
+                                    <li><i class="fas fa-play-circle"></i>Compression seals</li>
+                                    <li><i class="fas fa-play-circle"></i>Waterbars (PVC / Rubber / Steel)</li>
+                                    <li><i class="fas fa-play-circle"></i>Epoxy grouts</li>
+                                    <li><i class="fas fa-play-circle"></i>Movement accommodation sealant system</li>
                                 </ul>
                             </div>
                         </div>
@@ -294,15 +294,15 @@ include("header.php");
                             </div>
                             <div class="property-details__content">
                                 <ul class="property-feature">
-                                    <li><i class="fa-solid fa-circle-dot"></i>Carbon fiber wrapping</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Glass fiber wrapping</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Steel plate bonding</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Jacketing of columns and beams</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Post-tensioning techniques</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>External steel bracing</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Shotcrete strengthening</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Micro-concreting with reinforcement</li>
-                                    <li><i class="fa-solid fa-circle-dot"></i>Epoxy bonding and anchoring</li>
+                                    <li><i class="fas fa-play-circle"></i>Carbon fiber wrapping</li>
+                                    <li><i class="fas fa-play-circle"></i>Glass fiber wrapping</li>
+                                    <li><i class="fas fa-play-circle"></i>Steel plate bonding</li>
+                                    <li><i class="fas fa-play-circle"></i>Jacketing of columns and beams</li>
+                                    <li><i class="fas fa-play-circle"></i>Post-tensioning techniques</li>
+                                    <li><i class="fas fa-play-circle"></i>External steel bracing</li>
+                                    <li><i class="fas fa-play-circle"></i>Shotcrete strengthening</li>
+                                    <li><i class="fas fa-play-circle"></i>Micro-concreting with reinforcement</li>
+                                    <li><i class="fas fa-play-circle"></i>Epoxy bonding and anchoring</li>
                                 </ul>
                             </div>
                         </div>

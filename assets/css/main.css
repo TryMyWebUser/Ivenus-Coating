@@ -2188,6 +2188,7 @@ div {
 }
 .banner .banner__slider-cta {
   margin-top: 40px;
+  margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5649,7 +5650,7 @@ div {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  color: #3183ff;
+  color: #1baa56;
 }
 .property-details .property-details__modal {
   position: relative;
