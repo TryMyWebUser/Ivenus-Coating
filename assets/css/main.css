@@ -1157,7 +1157,7 @@ div {
 
 .main-header__topbar {
   padding: 10px 0px;
-  background-color: #333333;
+  background-color: var(--base-color);
 }
 .main-header__topbar .main-header__topbar__content {
   display: -webkit-box;
@@ -1168,7 +1168,7 @@ div {
           align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: flex-end;
   gap: 30px;
   padding-left: 300px;
 }
@@ -1319,7 +1319,7 @@ div {
           align-items: center;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
-          justify-content: flex-start;
+          justify-content: flex-end;
 }
 .main-header__menu .navbar__item a {
   font-size: 14px;
@@ -1406,8 +1406,8 @@ div {
   position: absolute;
   top: 100%;
   left: 0px;
-  min-width: 220px;
-  max-width: 260px;
+  min-width: max-content;
+  max-width: min-content;
   background-color: var(--white);
   opacity: 0;
   visibility: hidden;
@@ -1422,6 +1422,11 @@ div {
   padding: 20px 0px;
   border-radius: 5px;
   z-index: 9;
+  /* height: 400px;
+  overflow: auto; */
+}
+.mobile-menu__list {
+  overflow: auto;
 }
 .main-header__menu .navbar__sub-menu li:nth-last-of-type(1) > a {
   border-bottom: 0px;
@@ -3837,7 +3842,7 @@ div {
 }
 .procedure .procedure__single h4 {
   font-weight: 600;
-  color: var(--quaternary-color);
+  color: var(--white);
   margin-bottom: 12px;
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -4185,6 +4190,7 @@ div {
   color: var(--base-color);
 }
 .service .service__single p {
+  text-align: left;
   font-size: 15px;
   margin-bottom: 26px;
   color: #555555;
@@ -9568,7 +9574,7 @@ div {
 }
 
 .palate {
-  background: #0055d4 none repeat scroll 0 0;
+  background: #1baa56 none repeat scroll 0 0;
   display: block;
   float: left;
   height: 45px;
@@ -9659,7 +9665,7 @@ div {
 }
 
 .color-trigger {
-  background: #0055d4 none repeat scroll 0 0;
+  background: #1baa56 none repeat scroll 0 0;
   cursor: pointer;
   height: 50px;
   right: -50px;
@@ -9728,7 +9734,7 @@ div {
   padding: 8px 12px;
   font-size: 12px;
   display: inline-block;
-  background-color: #0055d4;
+  background-color: #1baa56;
   text-transform: uppercase;
 }
 
@@ -9826,7 +9832,7 @@ div {
 .color-palate .demos-carousel .owl-prev:hover,
 .color-palate .demos-carousel .owl-next:hover {
   color: var(--white);
-  background-color: #0055d4;
+  background-color: #1baa56;
 }
 
 .color-palate .demos-carousel li {
@@ -9848,7 +9854,7 @@ div {
   padding: 8px 12px;
   font-size: 12px;
   display: inline-block;
-  background-color: #0055d4;
+  background-color: #1baa56;
   text-transform: uppercase;
   margin-top: 15px;
   -webkit-transition: all 500ms ease;

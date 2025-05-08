@@ -68,19 +68,19 @@ include("header.php");
                         <div class="contact__social contact__content-single">
                            <h4>Social Media:</h4>
                            <div class="social">
-  <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook" title="Facebook">
-    <i class="fab fa-facebook-f"></i>
-  </a>
-  <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram" title="Instagram">
-    <i class="fab fa-instagram"></i>
-  </a>
-  <a href="https://wa.me/1234567890" target="_blank" aria-label="WhatsApp" title="WhatsApp">
-    <i class="fab fa-whatsapp"></i>
-  </a>
-  <a href="https://www.youtube.com/" target="_blank" aria-label="YouTube" title="YouTube">
-    <i class="fab fa-youtube"></i>
-  </a>
-</div>
+                              <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook" title="Facebook">
+                                 <i class="fab fa-facebook-f"></i>
+                              </a>
+                              <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram" title="Instagram">
+                                 <i class="fab fa-instagram"></i>
+                              </a>
+                              <a href="https://wa.me/+916382590515" target="_blank" aria-label="WhatsApp" title="WhatsApp">
+                                 <i class="fab fa-whatsapp"></i>
+                              </a>
+                              <a href="https://www.youtube.com/" target="_blank" aria-label="YouTube" title="YouTube">
+                                 <i class="fab fa-youtube"></i>
+                              </a>
+                           </div>
                         </div>
                      </div>
                   </div>

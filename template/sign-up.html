@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<!-- Mirrored from themecraze.net/html/alexis/sign-up.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Nov 2024 08:58:30 GMT -->
+<head>
+      <!-- required meta -->
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- #favicon -->
+      <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+      <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+      <!-- #title -->
+      <title>Alexis | Real Estate Html5 Template</title>
+      <!-- #keywords -->
+      <meta name="keywords" content="real estate, house listing, directory listing, html, bootstrap, scss">
+      <!-- #description -->
+      <meta name="description" content="Real Estate Html5 Template">
+      <!-- google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com/">
+      <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+      <link
+         href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&amp;family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap"
+         rel="stylesheet">
+      <!-- color themes -->
+      <link rel="stylesheet" href="assets/css/blue-theme.css" id="switch-color">
+      <!-- main css -->
+      <link rel="stylesheet" href="assets/css/main.css">
+      <!-- responsive css -->
+      <link rel="stylesheet" href="assets/css/responsive.css">
+   </head>
+   <body >
+      <!--[if lt IE 9]>
+      <p class="browserupgrade">
+         You are using an <strong>outdated</strong> browser. Please
+         <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+         your experience and security.
+      </p>
+      <![endif]-->
+      <div class="page-wrapper">
+         <!-- preloader start -->
+        <div class="preloader"></div>
+        <!-- / preloader start -->
+
+         <!-- ==== header start ==== -->
+         <header class="main-header">
+            <div class="main-header__topbar d-none d-lg-block">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-12">
+                        <div class="main-header__topbar__content">
+                           <div class="main-header__topbar__content-wrapper">
+                              <ul class="main-header__topbar__list">
+                                 <li><a href="sign-in.html"><i class="icon-user-key"></i>Login or Register</a>
+                                 </li>
+                                 <li><a href="properties-grid-view.html"><i class="icon-home"></i>Submit
+                                    Property</a>
+                                 </li>
+                              </ul>
+                              <select name="country" class="main-header__topbar__select-country">
+                                 <option data-flag="fi-gb-eng">English</option>
+                                 <option data-flag="fi-us">Spanish</option>
+                                 <option data-flag="fi-cn">Chinese</option>
+                                 <option data-flag="fi-it">Italian</option>
+                              </select>
+                           </div>
+                           <div class="social">
+                              <a href="https://www.facebook.com/" target="_blank"
+                                 aria-label="share us on facebook" title="facebook">
+                              <i class="flaticon-facebook"></i>
+                              </a>
+                              <a href="https://www.twitter.com/" target="_blank" aria-label="share us on twitter"
+                                 title="twitter">
+                              <i class="flaticon-twitter"></i>
+                              </a>
+                              <a href="https://www.instagram.com/" target="_blank"
+                                 aria-label="share us on instagram" title="instagram">
+                              <i class="flaticon-instagram"></i>
+                              </a>
+                              <a href="https://www.linkedin.com/" target="_blank"
+                                 aria-label="share us on linkedin" title="linkedin">
+                              <i class="flaticon-linkedin"></i>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="main-header__menu">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-12">
+                        <div class="main-header__menu-box">
+                           <nav class="navbar p-0">
+                              <div class="navbar-logo d-block d-lg-none">
+                                 <a href="index.html">
+                                 <img src="assets/images/logo-mobile.png" alt="Image">
+                                 </a>
+                              </div>
+                              <div class="navbar__menu d-none d-xl-block">
+                                 <ul class="navbar__list">
+                                    <li class="navbar__item navbar__item--has-children nav-fade">
+                                       <a href="#" aria-label="dropdown menu"
+                                          class="navbar__dropdown-label dropdown-label-alter">Demo</a>
+                                       <ul class="navbar__sub-menu">
+                                          <li>
+                                             <a href="index.html">Home Page One</a>
+                                          </li>
+                                          <li>
+                                             <a href="index-two.html">Home Page Two</a>
+                                          </li>
+                                          <li>
+                                             <a href="index-three.html">Home Page Three</a>
+                                          </li>
+                                          <li>
+                                             <a href="index-four.html">Home Page Four</a>
+                                          </li>
+                                          <li class="navbar__item navbar__item--has-children">
+                                             <a href="#" aria-label="dropdown menu"
+                                                class="navbar__dropdown-label navbar__dropdown-label-sub">Header
+                                             Styles</a>
+                                             <ul class="navbar__sub-menu navbar__sub-menu__nested">
+                                                <li>
+                                                   <a href="index.html">Header Style One</a>
+                                                </li>
+                                                <li>
+                                                   <a href="index-two.html">Header Style Two</a>
+                                                </li>
+                                                <li>
+                                                   <a href="index-three.html">Header Style Three</a>
+                                                </li>
+                                                <li>
+                                                   <a href="index-four.html">Header Style Four</a>
+                                                </li>
+                                             </ul>
+                                          </li>
+                                          <li class="navbar__item navbar__item--has-children">
+                                             <a href="#" aria-label="dropdown menu"
+                                                class="navbar__dropdown-label navbar__dropdown-label-sub">One
+                                             Page Styles</a>
+                                             <ul class="navbar__sub-menu navbar__sub-menu__nested">
+                                                <li>
+                                                   <a href="index-one-page.html">One Page Style One</a>
+                                                </li>
+                                                <li>
+                                                   <a href="index-two-one-page.html">One Page Style Two</a>
+                                                </li>
+                                                <li>
+                                                   <a href="index-three-one-page.html">One Page Style
+                                                   Three</a>
+                                                </li>
+                                                <li>
+                                                   <a href="index-four-one-page.html">One Page Style
+                                                   Four</a>
+                                                </li>
+                                             </ul>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                    <li class="navbar__item navbar__item--has-children nav-fade">
+                                       <a href="#" aria-label="dropdown menu"
+                                          class="navbar__dropdown-label dropdown-label-alter">Properties</a>
+                                       <ul class="navbar__sub-menu">
+                                          <li>
+                                             <a href="properties-list-view.html">Properties List View</a>
+                                          </li>
+                                          <li>
+                                             <a href="properties-grid-view.html">Properties Grid View</a>
+                                          </li>
+                                          <li>
+                                             <a href="property-details.html">Property Details</a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                    <li class="navbar__item navbar__item--has-children nav-fade">
+                                       <a href="#" aria-label="dropdown menu"
+                                          class="navbar__dropdown-label dropdown-label-alter">Team</a>
+                                       <ul class="navbar__sub-menu">
+                                          <li>
+                                             <a href="our-team.html">Our Team</a>
+                                          </li>
+                                          <li>
+                                             <a href="team-details.html">Team Details</a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                    <li class="navbar__item navbar__item--has-children nav-fade">
+                                       <a href="#" aria-label="dropdown menu"
+                                          class="navbar__dropdown-label dropdown-label-alter">Pages</a>
+                                       <ul class="navbar__sub-menu">
+                                          <li>
+                                             <a href="about-us.html">About Us</a>
+                                          </li>
+                                          <li>
+                                             <a href="our-services.html">Our Services</a>
+                                          </li>
+                                          <li>
+                                             <a href="sign-in.html">Sign In</a>
+                                          </li>
+                                          <li>
+                                             <a href="sign-up.html">Create Account</a>
+                                          </li>
+                                          <li>
+                                             <a href="coming-soon.html">Coming Soon</a>
+                                          </li>
+                                          <li>
+                                             <a href="404.html">Error</a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                    <li class="navbar__item navbar__item--has-children nav-fade">
+                                       <a href="#" aria-label="dropdown menu"
+                                          class="navbar__dropdown-label dropdown-label-alter">Blog</a>
+                                       <ul class="navbar__sub-menu">
+                                          <li>
+                                             <a href="blog-list-view.html">Blog List View</a>
+                                          </li>
+                                          <li>
+                                             <a href="blog-grid-view.html">Blog Grid View</a>
+                                          </li>
+                                          <li>
+                                             <a href="blog-details.html">Blog Details</a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                    <li class="navbar__item nav-fade">
+                                       <a href="contact-us.html">Contact Us</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                              <div class="navbar__options">
+                                 <div class="navbar__mobile-options d-none d-xl-block">
+                                    <div class="contact-btn">
+                                       <div class="contact-icon">
+                                          <i class="flaticon-phone-call"></i>
+                                       </div>
+                                       <div class="contact-content">
+                                          <p>Call Us Now</p>
+                                          <a href="tel:01-793-7938">(+01)-793-7938</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <button class="open-offcanvas-nav d-flex d-xl-none"
+                                    aria-label="toggle mobile menu" title="open offcanvas menu">
+                                 <span class="icon-bar top-bar"></span>
+                                 <span class="icon-bar middle-bar"></span>
+                                 <span class="icon-bar bottom-bar"></span>
+                                 </button>
+                              </div>
+                           </nav>
+                           <div class="logo d-none d-lg-flex">
+                              <a href="index.html">
+                              <img src="assets/images/logo.png" alt="Image">
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- ==== mobile menu start ==== -->
+            <div class="mobile-menu d-block d-xl-none">
+               <nav class="mobile-menu__wrapper">
+                  <div class="mobile-menu__header nav-fade">
+                     <div class="logo">
+                        <a href="index.html" aria-label="home page" title="logo">
+                        <img src="assets/images/logo-mobile.png" alt="Image">
+                        </a>
+                     </div>
+                     <button aria-label="close mobile menu" class="close-mobile-menu">
+                     <i class="fa-solid fa-xmark"></i>
+                     </button>
+                  </div>
+                  <div class="mobile-menu__list"></div>
+                  <div class="mobile-menu__social social nav-fade">
+                     <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook"
+                        title="facebook">
+                     <i class="flaticon-facebook"></i>
+                     </a>
+                     <a href="https://www.twitter.com/" target="_blank" aria-label="share us on twitter"
+                        title="twitter">
+                     <i class="flaticon-twitter"></i>
+                     </a>
+                     <a href="https://www.instagram.com/" target="_blank" aria-label="share us on instagram"
+                        title="instagram">
+                     <i class="flaticon-instagram"></i>
+                     </a>
+                     <a href="https://www.linkedin.com/" target="_blank" aria-label="share us on linkedin"
+                        title="linkedin">
+                     <i class="flaticon-linkedin"></i>
+                     </a>
+                  </div>
+               </nav>
+            </div>
+            <div class="mobile-menu__backdrop"></div>
+            <!-- ==== / mobile menu end ==== -->
+         </header>
+         <!-- ==== / header end ==== -->
+         <!-- ==== banner start ==== -->
+         <section class="common-banner" data-background="assets/images/background/breadcrumb-bg.png">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="common-banner__inner">
+                        <h2 class="title-animation">Create Account</h2>
+                        <nav aria-label="breadcrumb">
+                           <ol class="breadcrumb">
+                              <li class="breadcrumb-item">
+                                 <a href="index.html">Home</a>
+                              </li>
+                              <li class="breadcrumb-item active" aria-current="page">
+                                 Create Account
+                              </li>
+                           </ol>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- ==== / banner end ==== -->
+         <!-- ==== authentication section start ==== -->
+         <div class="authentication">
+            <div class="container">
+               <div class="row justify-content-center">
+                  <div class="col-12 col-lg-8 col-xl-6">
+                     <div class="authentication__wrapper">
+                        <div class="authentication__inner">
+                           <form action="#" method="post">
+                              <div class="input-single" data-aos="fade-up" data-aos-duration="1200">
+                                 <label for="createuserName">Your Name</label>
+                                 <div class="ic-group">
+                                    <input type="text" name="createuser-name" id="createuserName"
+                                       placeholder="Full Name" required>
+                                 </div>
+                              </div>
+                              <div class="input-single" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                                 <label for="create-useremail">Your Email</label>
+                                 <div class="ic-group">
+                                    <input type="text" name="create-user-email" id="create-useremail"
+                                       placeholder="Enter Mail" required>
+                                 </div>
+                              </div>
+                              <div class="input-single" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                                 <label for="createPassword">Password</label>
+                                 <div class="ic-group pass">
+                                    <input type="password" name="create-Password" id="createPassword"
+                                       placeholder="Enter Password" required>
+                                 </div>
+                              </div>
+                              <div class="input-single" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                                 <label for="createconfirmPassword">Confirm Password</label>
+                                 <div class="ic-group pass">
+                                    <input type="password" name="createconfirm-Password"
+                                       id="createconfirmPassword" placeholder="Confirm Password" required>
+                                 </div>
+                              </div>
+                              <div class="section__content-cta" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                                 <button type="submit" class="btn--primary">Create Account</button>
+                              </div>
+                              <div class="divider">
+                                 <span></span>
+                                 <p>Or continue with</p>
+                                 <span></span>
+                              </div>
+                           </form>
+                           <div class="auth-cta" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                              <button>
+                              <img src="assets/images/google.png" alt="Image">
+                              </button>
+                              <button>
+                              <img src="assets/images/meta.png" alt="Image">
+                              </button>
+                           </div>
+                        </div>
+                        <div class="auth-footer">
+                           <p>
+                              Have an account?
+                              <a href="sign-in.html">Sign In!</a>
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- ==== / authentication section end ==== -->
+         <!-- ==== footer start ==== -->
+         <footer class="footer footer-two">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="footer__partner">
+                        <div class="partner-slider swiper">
+                           <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                 <div class="partner-single">
+                                    <a href="properties-grid-view.html">
+                                    <img src="assets/images/partners/one.png" alt="Image">
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="partner-single">
+                                    <a href="properties-grid-view.html">
+                                    <img src="assets/images/partners/two.png" alt="Image">
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="partner-single">
+                                    <a href="properties-grid-view.html">
+                                    <img src="assets/images/partners/three.png" alt="Image">
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="partner-single">
+                                    <a href="properties-grid-view.html">
+                                    <img src="assets/images/partners/four.png" alt="Image">
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="partner-single">
+                                    <a href="properties-grid-view.html">
+                                    <img src="assets/images/partners/five.png" alt="Image">
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="partner-single">
+                                    <a href="properties-grid-view.html">
+                                    <img src="assets/images/partners/one.png" alt="Image">
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="partner-single">
+                                    <a href="properties-grid-view.html">
+                                    <img src="assets/images/partners/two.png" alt="Image">
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="partner-single">
+                                    <a href="properties-grid-view.html">
+                                    <img src="assets/images/partners/three.png" alt="Image">
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="partner-single">
+                                    <a href="properties-grid-view.html">
+                                    <img src="assets/images/partners/four.png" alt="Image">
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div class="partner-single">
+                                    <a href="properties-grid-view.html">
+                                    <img src="assets/images/partners/five.png" alt="Image">
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-12">
+                     <hr class="footer-divider">
+                  </div>
+               </div>
+               <div class="row vertical-column-gap-lg">
+                  <div class="col-12 col-md-6 col-xl-4">
+                     <div class="footer_-widget" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="footer__logo">
+                           <a href="index.html">
+                           <img src="assets/images/logo-light.png" alt="Image">
+                           </a>
+                        </div>
+                        <div class="footer__widget-content">
+                           <p>Lorem ipsum dolor amet consetetur
+                              adi pisicing elit sed eiusm tempor in
+                              cididunt ut labore dolore magna aliqua
+                              enim ad minim venitam
+                           </p>
+                           <p>Quis nostrud exercita laboris nisi ut
+                              aliquip commodo exercita.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-2">
+                     <div class="footer__widget" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                        <div class="footer__widget-header">
+                           <img src="assets/images/sub-icon.png" class="filter-img" alt="Image">
+                           <h4 class="title-animation">Services</h4>
+                        </div>
+                        <div class="footer__widget-content">
+                           <ul class="footer__widget-list">
+                              <li><a href="about-us.html"><i class="fa-solid fa-angle-right"></i> About Us</a>
+                              </li>
+                              <li><a href="properties-list-view.html"><i class="fa-solid fa-angle-right"></i>
+                                 Listing</a>
+                              </li>
+                              <li><a href="our-services.html"><i class="fa-solid fa-angle-right"></i> How It
+                                 Works</a>
+                              </li>
+                              <li><a href="our-services.html"><i class="fa-solid fa-angle-right"></i> Our
+                                 Services</a>
+                              </li>
+                              <li><a href="blog-grid-view.html"><i class="fa-solid fa-angle-right"></i> Our
+                                 Blog</a>
+                              </li>
+                              <li><a href="contact-us.html"><i class="fa-solid fa-angle-right"></i> Contact Us</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-3">
+                     <div class="footer__widget" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                        <div class="footer__widget-header footer__widget-header-alt">
+                           <img src="assets/images/sub-icon.png" class="filter-img" alt="Image">
+                           <h4 class="title-animation">Top News</h4>
+                        </div>
+                        <div class="footer__widget-content">
+                           <div class="footer__blog-single">
+                              <div class="thumb">
+                                 <a href="blog-details.html">
+                                 <img src="assets/images/blog/footer-one.png" alt="Image">
+                                 </a>
+                              </div>
+                              <div class="content">
+                                 <h5><a href="blog-details.html">The Added Value
+                                    Social Worker</a>
+                                 </h5>
+                                 <p>Aug 25, 2024</p>
+                              </div>
+                           </div>
+                           <div class="footer__blog-single">
+                              <div class="thumb">
+                                 <a href="blog-details.html">
+                                 <img src="assets/images/blog/footer-two.png" alt="Image">
+                                 </a>
+                              </div>
+                              <div class="content">
+                                 <h5><a href="blog-details.html">Ways to Increase
+                                    Trust</a>
+                                 </h5>
+                                 <p>Aug 25, 2024</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-xl-3">
+                     <div class="footer__widget" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                        <div class="footer__widget-header footer__widget-header-alt">
+                           <img src="assets/images/sub-icon.png" class="filter-img" alt="Image">
+                           <h4 class="title-animation">Contact Now</h4>
+                        </div>
+                        <div class="footer__widget-content">
+                           <ul class="footer__contact-list">
+                              <li><a href="https://www.google.com/maps/place/Kentucky,+USA/@37.8172108,-87.087054,8z/data=!3m1!4b1!4m6!3m5!1s0x8842734c8b1953c9:0x771f6f4ec5ccdffc!8m2!3d37.8393332!4d-84.2700179!16zL20vMDQ5OHk?entry=ttu"
+                                 target="_blank"><i class="fa-solid fa-location-dot"></i>Flat 20, Reynolds
+                                 Neck,
+                                 North Helenaville, FV77 8WS
+                                 </a>
+                              </li>
+                              <li><a href="tel:2305-587-3407"><i class="fa-solid fa-phone-flip"></i>+2(305)
+                                 587-3407</a>
+                              </li>
+                              <li><a href="mailto:info@example.com"><i
+                                 class="fa-regular fa-envelope"></i>info@example.com</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__bottom">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-12">
+                        <div class="footer__bottom-inner">
+                           <div class="row align-items-center vertical-column-gap-sm">
+                              <div class="col-12 col-lg-7">
+                                 <div class="footer__bottom-left">
+                                    <ul
+                                       class="footer__bottom-list justify-content-center justify-content-lg-start">
+                                       <li><a href="contact-us.html">Where to Find Us</a></li>
+                                       <li><span></span></li>
+                                       <li><a href="terms-conditions.html">Terms of Payment</a></li>
+                                       <li><span></span></li>
+                                       <li><a href="privacy-policy.html">Stats Element</a></li>
+                                    </ul>
+                                    <p class="text-center text-lg-start"><span id="copyrightYear"></span> &copy;
+                                       All copyright served by <a
+                                          href="https://themeforest.net/user/themecraze"
+                                          target="_blank">ThemeCraze</a>
+                                    </p>
+                                 </div>
+                              </div>
+                              <div class="col-12 col-lg-5">
+                                 <div class="footer__bottom-right">
+                                    <div class="social justify-content-center justify-content-lg-end">
+                                       <a href="https://www.facebook.com/" target="_blank"
+                                          aria-label="share us on facebook" title="facebook">
+                                       <i class="flaticon-facebook"></i>
+                                       </a>
+                                       <a href="https://www.twitter.com/" target="_blank"
+                                          aria-label="share us on twitter" title="twitter">
+                                       <i class="flaticon-twitter"></i>
+                                       </a>
+                                       <a href="https://www.instagram.com/" target="_blank"
+                                          aria-label="share us on instagram" title="instagram">
+                                       <i class="flaticon-instagram"></i>
+                                       </a>
+                                       <a href="https://www.linkedin.com/" target="_blank"
+                                          aria-label="share us on linkedin" title="linkedin">
+                                       <i class="flaticon-linkedin"></i>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <!-- ==== / footer end ==== -->
+         <!-- ==== color switcher start ==== -->
+         <div class="color-palate">
+            <div class="color-trigger">
+               <i class="fas fa-cog fa-fw"></i>
+            </div>
+            <div class="color-palate-inner">
+               <div class="color-palate-head">
+                  <h6>Choose Options</h6>
+               </div>
+               <div class="various-color clearfix">
+                  <h6>Multiple Colors</h6>
+                  <br>
+                  <div class="colors-list">
+                     <span class="palate blue-color active" data-theme-file="assets/css/blue-theme.css"></span>
+                     <span class="palate default-color"
+                        data-theme-file="assets/css/red-theme.css"></span>
+                     <span class="palate brown-color" data-theme-file="assets/css/brown-theme.css"></span>
+                     <span class="palate green-color" data-theme-file="assets/css/green-theme.css"></span>
+                     <span class="palate orange-color" data-theme-file="assets/css/orange-theme.css"></span>
+                     <span class="palate purple-color" data-theme-file="assets/css/purple-theme.css"></span>
+                     <span class="palate teal-color" data-theme-file="assets/css/teal-theme.css"></span>
+                     <span class="palate yellow-color" data-theme-file="assets/css/yellow-theme.css"></span>
+                  </div>
+               </div>
+               <h6>RTL Version</h6>
+               <ul class="rtl-version option-box">
+                  <li class="rtl">RTL Version</li>
+                  <li>LTR Version</li>
+               </ul>
+               <h6>Boxed Version</h6>
+               <ul class="box-version option-box">
+                  <li class="box">Boxed</li>
+                  <li>Full width</li>
+               </ul>
+               <h6>Want Sticky Header</h6>
+               <ul class="header-version option-box">
+                  <li class="box">No</li>
+                  <li>Yes</li>
+               </ul>
+               <h6>Dark Verion</h6>
+               <ul class="dark-version option-box">
+                  <li class="box">Yes</li>
+                  <li>No</li>
+               </ul>
+               <div class="purchase-box">
+                  <p>You will find much more options for colors and styling in admin panel. This color picker is used
+                     only for demonstation purposes.
+                  </p>
+                  <a href="#" class="purchase-box__btn">buy now</a>
+               </div>
+            </div>
+         </div>
+         <!-- ==== / color switcher end ==== -->
+         <!-- ==== mouse cursor drag start ==== -->
+         <div class="mouseCursor cursor-outer"></div>
+         <div class="mouseCursor cursor-inner"></div>
+         <!-- ==== / mouse cursor drag end ==== -->
+         <!-- ==== scroll to top start ==== -->
+         <button class="progress-wrap" aria-label="scroll indicator" title="back to top">
+            <span></span>
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+               <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+            </svg>
+         </button>
+         <!-- ==== / scroll to top end ==== -->
+      </div>
+      <!-- ==== js dependencies start ==== -->
+      <!-- jquery -->
+      <script src="assets/js/jquery-3.7.1.min.js"></script>
+      <!-- bootstrap five js -->
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <!-- nice select js -->
+      <script src="assets/js/jquery.nice-select.min.js"></script>
+      <!-- magnific popup js -->
+      <script src="assets/js/jquery.magnific-popup.min.js"></script>
+      <!-- swiper slider js -->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+      <!-- viewport js -->
+      <script src="assets/js/viewport.jquery.js"></script>
+      <!-- odometer js -->
+      <script src="assets/js/odometer.min.js"></script>
+      <!-- aos js -->
+    <script src="assets/js/aos.js"></script>
+    <!-- lenis smooth scroll -->
+    <script src="assets/js/lenis.min.js"></script>
+      <!-- splittext js -->
+      <script src="assets/js/SplitText.min.js"></script>
+      <!-- scrollto js -->
+      <script src="assets/js/ScrollToPlugin.min.js"></script>
+      <!-- scrolltrigger js -->
+      <script src="assets/js/ScrollTrigger.min.js"></script>
+      <!-- gsap js -->
+      <script src="assets/js/gsap.min.js"></script>
+      <!-- ==== / js dependencies end ==== -->
+      <!-- colour settings js -->
+      <script src="assets/js/color-settings.js"></script>
+      <!-- main js -->
+      <script src="assets/js/custom.js"></script>
+   </body>
+
+<!-- Mirrored from themecraze.net/html/alexis/sign-up.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Nov 2024 08:58:30 GMT -->
+</html>

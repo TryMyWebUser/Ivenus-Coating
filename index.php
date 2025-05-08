@@ -27,7 +27,7 @@ include("header.php");
                         </div>
                      </div>
                   </div>
-                  <div class="swiper-slide">
+                  <!-- <div class="swiper-slide">
                      <div class="banner__slider-single">
                         <div class="banner__slider-inner" data-background="assets/images/banner/banner-thumb2.png">
                         </div>
@@ -48,8 +48,8 @@ include("header.php");
                            </div>
                         </div>
                      </div>
-                  </div>
-                  <div class="swiper-slide">
+                  </div> -->
+                  <!-- <div class="swiper-slide">
                      <div class="banner__slider-single">
                         <div class="banner__slider-inner" data-background="assets/images/banner/two1.png"></div>
                         <div class="container">
@@ -69,16 +69,16 @@ include("header.php");
                            </div>
                         </div>
                      </div>
-                  </div>
+                  </div> -->
                </div>
-               <div class="slider-navigation d-none d-lg-flex">
+               <!-- <div class="slider-navigation d-none d-lg-flex">
                   <button type="button" aria-label="next slide" title="next slide" class="next-banner slider-btn">
                   <i class="fa-solid fa-angle-left"></i>
                   </button>
                   <button type="button" aria-label="prev slide" title="prev slide" class="prev-banner slider-btn">
                   <i class="fa-solid fa-angle-right"></i>
                   </button>
-               </div>
+               </div> -->
             </div>
          </section>
          <!-- ==== / banner end ==== -->
@@ -125,7 +125,10 @@ include("header.php");
                         </div>
                         <div class="inner">
                            <p><b style="color:black;">IVENUS COATING AND ENGINEERING (IVCE),</b> initially a growing organization, has flourished under the dynamic leadership of its Founder and Managing Partner, Mr. Durai Nirmal B.B.A., and Partner Mrs. N. Manjula B.C.A. Through their visionary leadership, IVCE has made a significant impact in the painting industry, incorporating advanced technology and methodologies to maintain and protect steel structures, power transformers, gantry towers, and high-rise RCC structures, effectively preventing corrosion and deterioration. </p> <br>
-                           <p>Specializing in both external and internal applications of civil structural painting, mechanical structure painting, and electrical equipment coatings, IVCE also provides comprehensive services in general maintenance, repair, and rehabilitation. The company excels in repairing and rehabilitating high-rise structures, ensuring their protection and extending their lifespan. These services are available on a turnkey basis or through contractual arrangements. </p>
+                           <!-- <p>Specializing in both external and internal applications of civil structural painting, mechanical structure painting, and electrical equipment coatings, IVCE also provides comprehensive services in general maintenance, repair, and rehabilitation. The company excels in repairing and rehabilitating high-rise structures, ensuring their protection and extending their lifespan. These services are available on a turnkey basis or through contractual arrangements. </p> -->
+                           <div class="cta">
+                              <a href="about.php" class="btn--primary mt-4">Read More</a>
+                           </div>
                         </div>
                      </div>
                   </div>
@@ -135,9 +138,9 @@ include("header.php");
          <!-- ==== / collection section end ==== -->
 
           <!-- ==== procedure section start ==== -->
-          <section class="procedure">
+          <section class="procedure" data-background="assets/images/background/old.breadcrumb-bg1.png" style="background-repeat: no-repeat; background-size: cover;">
             <div class="container">
-               <div class="row justify-content-center">
+               <!-- <div class="row justify-content-center">
                   <div class="col-12">
                      <div class="section__header text-center">
                         <span>Ivenus Coating and Engineering</span>
@@ -155,7 +158,7 @@ include("header.php");
                         </div>
                      </div>
                   </div>
-               </div>
+               </div> -->
                <div class="row">
                   <div class="col-12">
                      <div class="procedure__inner">
@@ -167,7 +170,7 @@ include("header.php");
                                  </div>
                                  <div class="content">
                                     <h4>14+</h4>
-                                    <p>Years in Bussines
+                                    <p style="color: #f5f5f5;">Years in Bussines
                                     </p>
                                  </div>
                               </div>
@@ -180,7 +183,7 @@ include("header.php");
                                  </div>
                                  <div class="content">
                                     <h4>20K+</h4>
-                                    <p>Happy Clients
+                                    <p style="color: #f5f5f5;">Happy Clients
                                     </p>
                                  </div>
                               </div>
@@ -193,7 +196,7 @@ include("header.php");
                                  </div>
                                  <div class="content">
                                     <h4>30K+</h4>
-                                    <p>Projects Completed
+                                    <p style="color: #f5f5f5;">Projects Completed
                                     </p>
                                  </div>
                               </div>
@@ -206,7 +209,7 @@ include("header.php");
                                  </div>
                                  <div class="content">
                                     <h4>100+</h4>
-                                    <p>Trained Staff
+                                    <p style="color: #f5f5f5;">Trained Staff
                                     </p>
                                  </div>
                               </div>
@@ -222,16 +225,45 @@ include("header.php");
          </section>
          <!-- ==== / procedure section end ==== -->
 
+         <!-- ==== team details section start ==== -->
+         <section class="team-details">
+            <div class="container">
+               <div class="row vertical-column-gap-lg">
+                  <div class="col-12 col-lg-5">
+                     <div class="team-details__thumb p-0" data-aos="fade-up" data-aos-duration="1200">
+                        <img src="assets/images/team/two2.png" style="height: 28rem; border-radius: 2rem; object-fit: fill;" alt="Image">
+                     </div>
+                  </div>
+                  <div class="col-12 col-lg-7" style="align-self: center;">
+                     <div class="team-details__content">
+                        <div class="about-me m-0">
+                           <div class="about-me__header">
+                              <h4 class="title-animation">Our Key Differentiators!</h4>
+                           </div>
+                           <div class="about-me__content" data-aos="fade-up" data-aos-duration="1200">
+                              <p>With over 14 years of experience in the industry, we are a multi-disciplinary painting company committed to delivering high-quality solutions. Our expertise covers a broad spectrum of services, including structural painting and repair, rehabilitation, restrengthening, as well as specialized services such as waterproofing, fireproofing, and acid-resistant painting.
+                              </p>
+                              <p>At IVCE, we prioritize understanding our clients' core values and consistently delivering services that meet their unique needs. This approach ensures that we not only meet but exceed expectations. Our leadership has successfully overseen numerous projects across India, fostering long-term relationships with our clients. Once you partner with IVCE, you will always be a valued client. This unwavering commitment to excellence and customer satisfaction has been the driving force behind our continuous growth.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- ==== / team details section end ==== -->
+
          <!-- ==== area section start ==== -->
-         <section class="area" data-background="assets/images/background/area-bg1.png">
+         <!-- <section class="area" data-background="assets/images/background/area-bg1.png">
             <div class="container">
                <div class="row justify-content-center">
                   <div class="col-12 col-md-9 col-xl-5">
                      <div class="section__header-light text-center">
                         <span>Ivenus Coating and Engineering</span>
-                        <!-- <h2 class="title-animation">Find Your Dream House
+                        <!- <h2 class="title-animation">Find Your Dream House
                            Search By Area
-                        </h2> -->
+                        </h2> ->
                         <div class="icon-thumb justify-content-center">
                            <div class="icon-thumb-single">
                               <span></span>
@@ -257,7 +289,7 @@ include("header.php");
                         <p> At IVCE, we prioritize understanding our clients' core values and consistently delivering services that meet their unique needs. This approach ensures that we not only meet but exceed expectations. Our leadership has successfully overseen numerous projects across India, fostering long-term relationships with our clients. Once you partner with IVCE, you will always be a valued client. This unwavering commitment to excellence and customer satisfaction has been the driving force behind our continuous growth.</p>
                      </div>
                   </div>
-                  <!-- <div class="col-12 col-lg-6 col-xl-7">
+                  <!- <div class="col-12 col-lg-6 col-xl-7">
                      <div class="area__thumb">
                         <div class="area-slider swiper">
                            <div class="swiper-wrapper">
@@ -267,15 +299,15 @@ include("header.php");
                            </div>
                         </div>
                      </div>
-                  </div> -->
+                  </div> ->
                </div>
                
             </div>
-         </section>
+         </section> -->
          <!-- ==== / area section end ==== -->
 
           <!-- ==== team details section start ==== -->
-          <section class="team-details">
+          <!-- <section class="team-details">
             <div class="container">
                <div class="row vertical-column-gap-lg">
                   <div class="col-12 col-lg-5">
@@ -303,11 +335,11 @@ include("header.php");
                   </div>
                </div>
             </div>
-         </section>
+         </section> -->
          <!-- ==== / team details section end ==== -->
 
           <!-- ==== property three section start ==== -->
-        <div class="property-three">
+        <!-- <div class="property-three">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-xl-5">
@@ -332,58 +364,14 @@ include("header.php");
                     <div class="col-12">
                         <div class="swiper property-three-slider">
                             <div class="swiper-wrapper">
+                                
                                 <div class="swiper-slide">
                                     <div class="property-three__single">
                                         <div class="thumb-wrapper">
                                             <div class="thumb">
                                                 <a href="property-details.html">
-                                                    <img src="assets/images/thumb/properties/one.png" alt="Image">
+                                                    <img src="assets/images/thumb/properties/1.png" alt="Image">
                                                 </a>
-                                                <div class="tag">
-                                                    <span class="feature-tag">Feature</span>
-                                                    <span class="sold-tag">Sold</span>
-                                                </div>
-                                                <div class="price-tag">
-                                                    <span>$1,200/mo</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-
-                                            <h4><a href="property-details.html">Luxury Home Appoint </a></h4>
-                                            <p class="location"><span class="icon-location"></span> 798 Talbot St.
-                                                Bridgewater, NJ
-                                                08</p>
-                                            <div class="specifications">
-                                                <p><i class="flaticon-double-bed"></i> 3 Bedroom</p>
-                                                <p><i class="flaticon-bathroom"></i> 3 Bathroom</p>
-                                                <p><i class="flaticon-house-design"></i> Sq Ft 750 </p>
-                                            </div>
-                                            <div class="property-footer">
-                                                <div class="author">
-                                                    <div class="author-thumb">
-                                                        <img src="assets/images/thumb/properties/author/one.png"
-                                                            alt="Image">
-                                                    </div>
-                                                    <div class="author-meta">
-                                                        <p>Wiliam Siman</p>
-                                                        <p>East Agents</p>
-                                                    </div>
-                                                </div>
-                                                <div class="footer-cta">
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-heart"></i>
-                                                        <span class="tool">Wishlist</span>
-                                                    </a>
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-shared-vision"></i>
-                                                        <span class="tool">Quick View</span>
-                                                    </a>
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-add"></i>
-                                                        <span class="tool">Project Details</span>
-                                                    </a>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -393,53 +381,8 @@ include("header.php");
                                         <div class="thumb-wrapper">
                                             <div class="thumb">
                                                 <a href="property-details.html">
-                                                    <img src="assets/images/thumb/properties/two.png" alt="Image">
+                                                    <img src="assets/images/thumb/properties/2.png" alt="Image">
                                                 </a>
-                                                <div class="tag">
-                                                    <span class="feature-tag">Feature</span>
-                                                    <span class="sold-tag">Sold</span>
-                                                </div>
-                                                <div class="price-tag">
-                                                    <span>$1,500/mo</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-
-                                            <h4><a href="property-details.html">House on the Clarita</a></h4>
-                                            <p class="location"><span class="icon-location"></span> 798 Talbot St.
-                                                Bridgewater, NJ
-                                                08</p>
-                                            <div class="specifications">
-                                                <p><i class="flaticon-double-bed"></i> 3 Bedroom</p>
-                                                <p><i class="flaticon-bathroom"></i> 3 Bathroom</p>
-                                                <p><i class="flaticon-house-design"></i> Sq Ft 750 </p>
-                                            </div>
-                                            <div class="property-footer">
-                                                <div class="author">
-                                                    <div class="author-thumb">
-                                                        <img src="assets/images/thumb/properties/author/two.png"
-                                                            alt="Image">
-                                                    </div>
-                                                    <div class="author-meta">
-                                                        <p>Jackson Mica</p>
-                                                        <p>East Agents</p>
-                                                    </div>
-                                                </div>
-                                                <div class="footer-cta">
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-heart"></i>
-                                                        <span class="tool">Wishlist</span>
-                                                    </a>
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-shared-vision"></i>
-                                                        <span class="tool">Quick View</span>
-                                                    </a>
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-add"></i>
-                                                        <span class="tool">Project Details</span>
-                                                    </a>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -449,53 +392,18 @@ include("header.php");
                                         <div class="thumb-wrapper">
                                             <div class="thumb">
                                                 <a href="property-details.html">
-                                                    <img src="assets/images/thumb/properties/three.png" alt="Image">
+                                                    <img src="assets/images/thumb/properties/3.png" alt="Image">
                                                 </a>
-                                                <div class="tag">
-                                                    <span class="feature-tag">Feature</span>
-                                                    <span class="sold-tag">Sold</span>
-                                                </div>
-                                                <div class="price-tag">
-                                                    <span>$1,500/mo</span>
-                                                </div>
                                             </div>
                                         </div>
-                                        <div class="content">
-
-                                            <h4><a href="property-details.html">Weston Hight Place</a></h4>
-                                            <p class="location"><span class="icon-location"></span> 798 Talbot St.
-                                                Bridgewater, NJ
-                                                08</p>
-                                            <div class="specifications">
-                                                <p><i class="flaticon-double-bed"></i> 3 Bedroom</p>
-                                                <p><i class="flaticon-bathroom"></i> 3 Bathroom</p>
-                                                <p><i class="flaticon-house-design"></i> Sq Ft 750 </p>
-                                            </div>
-                                            <div class="property-footer">
-                                                <div class="author">
-                                                    <div class="author-thumb">
-                                                        <img src="assets/images/thumb/properties/author/three.png"
-                                                            alt="Image">
-                                                    </div>
-                                                    <div class="author-meta">
-                                                        <p>Micky Arthor</p>
-                                                        <p>East Agents</p>
-                                                    </div>
-                                                </div>
-                                                <div class="footer-cta">
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-heart"></i>
-                                                        <span class="tool">Wishlist</span>
-                                                    </a>
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-shared-vision"></i>
-                                                        <span class="tool">Quick View</span>
-                                                    </a>
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-add"></i>
-                                                        <span class="tool">Project Details</span>
-                                                    </a>
-                                                </div>
+                                    </div>
+                                </div><div class="swiper-slide">
+                                    <div class="property-three__single">
+                                        <div class="thumb-wrapper">
+                                            <div class="thumb">
+                                                <a href="property-details.html">
+                                                    <img src="assets/images/thumb/properties/4.png" alt="Image">
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -505,53 +413,8 @@ include("header.php");
                                         <div class="thumb-wrapper">
                                             <div class="thumb">
                                                 <a href="property-details.html">
-                                                    <img src="assets/images/thumb/properties/one.png" alt="Image">
+                                                    <img src="assets/images/thumb/properties/5.png" alt="Image">
                                                 </a>
-                                                <div class="tag">
-                                                    <span class="feature-tag">Feature</span>
-                                                    <span class="sold-tag">Sold</span>
-                                                </div>
-                                                <div class="price-tag">
-                                                    <span>$1,200/mo</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-
-                                            <h4><a href="property-details.html">Luxury Home Appoint </a></h4>
-                                            <p class="location"><span class="icon-location"></span> 798 Talbot St.
-                                                Bridgewater, NJ
-                                                08</p>
-                                            <div class="specifications">
-                                                <p><i class="flaticon-double-bed"></i> 3 Bedroom</p>
-                                                <p><i class="flaticon-bathroom"></i> 3 Bathroom</p>
-                                                <p><i class="flaticon-house-design"></i> Sq Ft 750 </p>
-                                            </div>
-                                            <div class="property-footer">
-                                                <div class="author">
-                                                    <div class="author-thumb">
-                                                        <img src="assets/images/thumb/properties/author/one.png"
-                                                            alt="Image">
-                                                    </div>
-                                                    <div class="author-meta">
-                                                        <p>Wiliam Siman</p>
-                                                        <p>East Agents</p>
-                                                    </div>
-                                                </div>
-                                                <div class="footer-cta">
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-heart"></i>
-                                                        <span class="tool">Wishlist</span>
-                                                    </a>
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-shared-vision"></i>
-                                                        <span class="tool">Quick View</span>
-                                                    </a>
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-add"></i>
-                                                        <span class="tool">Project Details</span>
-                                                    </a>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -561,113 +424,13 @@ include("header.php");
                                         <div class="thumb-wrapper">
                                             <div class="thumb">
                                                 <a href="property-details.html">
-                                                    <img src="assets/images/thumb/properties/two.png" alt="Image">
+                                                    <img src="assets/images/thumb/properties/6.png" alt="Image">
                                                 </a>
-                                                <div class="tag">
-                                                    <span class="feature-tag">Feature</span>
-                                                    <span class="sold-tag">Sold</span>
-                                                </div>
-                                                <div class="price-tag">
-                                                    <span>$1,500/mo</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-
-                                            <h4><a href="property-details.html">House on the Clarita</a></h4>
-                                            <p class="location"><span class="icon-location"></span> 798 Talbot St.
-                                                Bridgewater, NJ
-                                                08</p>
-                                            <div class="specifications">
-                                                <p><i class="flaticon-double-bed"></i> 3 Bedroom</p>
-                                                <p><i class="flaticon-bathroom"></i> 3 Bathroom</p>
-                                                <p><i class="flaticon-house-design"></i> Sq Ft 750 </p>
-                                            </div>
-                                            <div class="property-footer">
-                                                <div class="author">
-                                                    <div class="author-thumb">
-                                                        <img src="assets/images/thumb/properties/author/two.png"
-                                                            alt="Image">
-                                                    </div>
-                                                    <div class="author-meta">
-                                                        <p>Jackson Mica</p>
-                                                        <p>East Agents</p>
-                                                    </div>
-                                                </div>
-                                                <div class="footer-cta">
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-heart"></i>
-                                                        <span class="tool">Wishlist</span>
-                                                    </a>
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-shared-vision"></i>
-                                                        <span class="tool">Quick View</span>
-                                                    </a>
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-add"></i>
-                                                        <span class="tool">Project Details</span>
-                                                    </a>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="property-three__single">
-                                        <div class="thumb-wrapper">
-                                            <div class="thumb">
-                                                <a href="property-details.html">
-                                                    <img src="assets/images/thumb/properties/three.png" alt="Image">
-                                                </a>
-                                                <div class="tag">
-                                                    <span class="feature-tag">Feature</span>
-                                                    <span class="sold-tag">Sold</span>
-                                                </div>
-                                                <div class="price-tag">
-                                                    <span>$1,500/mo</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="content">
-
-                                            <h4><a href="property-details.html">Weston Hight Place</a></h4>
-                                            <p class="location"><span class="icon-location"></span> 798 Talbot St.
-                                                Bridgewater, NJ
-                                                08</p>
-                                            <div class="specifications">
-                                                <p><i class="flaticon-double-bed"></i> 3 Bedroom</p>
-                                                <p><i class="flaticon-bathroom"></i> 3 Bathroom</p>
-                                                <p><i class="flaticon-house-design"></i> Sq Ft 750 </p>
-                                            </div>
-                                            <div class="property-footer">
-                                                <div class="author">
-                                                    <div class="author-thumb">
-                                                        <img src="assets/images/thumb/properties/author/three.png"
-                                                            alt="Image">
-                                                    </div>
-                                                    <div class="author-meta">
-                                                        <p>Micky Arthor</p>
-                                                        <p>East Agents</p>
-                                                    </div>
-                                                </div>
-                                                <div class="footer-cta">
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-heart"></i>
-                                                        <span class="tool">Wishlist</span>
-                                                    </a>
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-shared-vision"></i>
-                                                        <span class="tool">Quick View</span>
-                                                    </a>
-                                                    <a href="property-details.html">
-                                                        <i class="flaticon-add"></i>
-                                                        <span class="tool">Project Details</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             </div>
                             <div class="pagination-one">
                                 <div class="property-three-pagination"></div>
@@ -676,9 +439,70 @@ include("header.php");
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- ==== / property three section end ==== -->
 
+
+        <!-- ==== contact form section start ==== -->
+        <section class="contact-form">
+            <div class="container">
+               <div class="row justify-content-center">
+                  <div class="col-12 col-xl-5">
+                     <div class="section__header text-center">
+                        <span>Get A Quote</span>
+                        <h2 class="title-animation">Feel Free To Contact
+                           With Us Any Time.
+                        </h2>
+                        <div class="icon-thumb justify-content-center">
+                           <div class="icon-thumb-single">
+                              <span></span>
+                              <span></span>
+                           </div>
+                           <img src="assets/images/sub-icon.png" alt="Image" class="filter-img">
+                           <div class="icon-thumb-single">
+                              <span></span>
+                              <span></span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row justify-content-center">
+                  <div class="col-12 col-xl-10">
+                     <div class="contact__form">
+                        <form action="#" method="post">
+                           <div class="input-group"  data-aos="fade-up" data-aos-duration="1200">
+                              <div class="input-single">
+                                 <input type="text" name="contact-name" id="contactName" placeholder="Name">
+                              </div>
+                              <div class="input-single">
+                                 <input type="email" name="contact-email" id="contactEmail" placeholder="Email">
+                              </div>
+                           </div>
+                           <div class="input-group"  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                              <div class="input-single">
+                                 <input type="tel" name="contact-number" id="contactNumber" placeholder="Number">
+                              </div>
+                              <div class="input-single">
+                                 <input type="text" name="contact-subject" id="contactSubject"
+                                    placeholder="Subject">
+                              </div>
+                           </div>
+                           <div class="input-group" data-aos="fade-up" data-aos-duration="1200"
+                              data-aos-delay="400">
+                              <textarea name="contact-message" id="contactMessage"
+                                 placeholder="Message"></textarea>
+                           </div>
+                           <div class="text-center">
+                              <button type="submit" class="btn--primary">Send Message</button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- ==== / contact form section end ==== -->
         
 
 

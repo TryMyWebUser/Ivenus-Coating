@@ -16,7 +16,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="col-lg-4">
+                  <div class="col-lg-2">
                      <div class="footer__widget" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                         <div class="footer__widget-header">
                            
@@ -29,8 +29,9 @@
                               <li><a href="about.php"><i class="fa-solid fa-angle-right"></i>
                                  About Us</a>
                               </li>
-                              <li><a href="#0"><i class="fa-solid fa-angle-right"></i> Nature of Work</a>
-                              </li>
+                              <li><a href="projects.php"><i class="fa-solid fa-angle-right"></i> Projects</a></li>
+                              <li><a href="services.php"><i class="fa-solid fa-angle-right"></i> Services</a></li>
+                              <li><a href="gallery.php"><i class="fa-solid fa-angle-right"></i> Gallert</a></li>
                               <li><a href="contact.php"><i class="fa-solid fa-angle-right"></i> Contact Us</a>
                               </li>
                            </ul>
@@ -38,7 +39,7 @@
                      </div>
                   </div>
 
-                  <div class="col-lg-4">
+                  <div class="col-lg-3">
                      <div class="footer__widget" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
                         <div class="footer__widget-header footer__widget-header-alt">
                            
@@ -58,8 +59,17 @@
                         </div>
                      </div>
                   </div>
-
-                  
+                  <div class="col-lg-3">
+                     <div class="footer__widget" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                        <div class="footer__widget-header footer__widget-header-alt">
+                           
+                           <h4 class="title-animation">Reach Us</h4>
+                        </div>
+                        <div class="footer__widget-content">
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3908.0434150996343!2d79.54735267505443!3d11.620255288584508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDM3JzEyLjkiTiA3OcKwMzInNTkuNyJF!5e0!3m2!1sen!2sin!4v1746612417996!5m2!1sen!2sin" style="border: 0; width: -webkit-fill-available; height: 13rem" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                     </div>
+                  </div>                  
                </div>
             </div>
             <div class="footer__bottom">
@@ -124,7 +134,7 @@
       <script src="assets/js/custom.js"></script>
    </body>
 
-   <a href="https://wa.me/916382590515" class="whatsapp_float" target="_blank"> <i class="fab fa-whatsapp whatsapp-icon"></i></a>
+   <a href="https://wa.me/+916382590515" class="whatsapp_float" target="_blank"> <i class="fab fa-whatsapp whatsapp-icon"></i></a>
 
 
 </html>
