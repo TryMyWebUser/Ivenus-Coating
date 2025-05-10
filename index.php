@@ -14,12 +14,11 @@ include("header.php");
                               <div class="col-12 col-lg-10 col-xl-8">
                                  <div class="banner__slider-content">
                                     <span>Welcome To</span>
-                                    <h3 style="color: #ffffff;">
-                                      <span style="color: #ff9900;">Ivenus Coating and</span> 
-                                      <span style="color: #00cc99;"> Engineering (IVCE)</span>
+                                    <h3 style="color: #ffffff; font-family: Algerian;">
+                                      <span style="color: #ff9900;">Ivenus Coating and Engineering</span> 
+                                      <span style="color: #00cc99;"> (IVCE)</span>
                                     </h3>
-                                    <p>With over 14 years of experience in the industry, we are a multi-disciplinary painting company committed to delivering high-quality solutions.
-                                    </p>
+                                    <p>With over 14 years of experience in the industry, we are a multi-disciplinary painting company committed to delivering high-quality solutions.</p>
                                     <div class="banner__slider-cta">
                                        <a href="https://wa.me/916382590515" class="btn--primary">For Enquiry</a>
                                        <a href="tel:+917010905569" class="btn--secondary">Contact Us</a>
@@ -127,11 +126,11 @@ include("header.php");
                            </div>
                         </div>
                         <div class="inner">
-                           <p><b style="color:black;">IVENUS COATING AND ENGINEERING (IVCE),</b> initially a growing organization, has flourished under the dynamic leadership of its Founder and Managing Partner, Mr. Durai Nirmal B.B.A., and Partner Mrs. N. Manjula B.C.A. Through their visionary leadership, IVCE has made a significant impact in the painting industry, incorporating advanced technology and methodologies to maintain and protect steel structures, power transformers, gantry towers, and high-rise RCC structures, effectively preventing corrosion and deterioration. </p> <br>
-                           <!-- <p>Specializing in both external and internal applications of civil structural painting, mechanical structure painting, and electrical equipment coatings, IVCE also provides comprehensive services in general maintenance, repair, and rehabilitation. The company excels in repairing and rehabilitating high-rise structures, ensuring their protection and extending their lifespan. These services are available on a turnkey basis or through contractual arrangements. </p> -->
-                           <div class="cta">
+                           <p><b style="color:black;">IVENUS COATING AND ENGINEERING (IVCE),</b> initially a growing organization, has flourished under the dynamic leadership of its Founder and Managing Partner, Mr. Durai Nirmal B.B.A., and Partner Mrs. N. Manjula B.C.A. Through their visionary leadership, IVCE has made a significant impact in the painting industry, incorporating advanced technology and methodologies to maintain and protect steel structures, power transformers, gantry towers, and high-rise RCC structures, effectively preventing corrosion and deterioration.</p>
+                           <p>Specializing in both external and internal applications of civil structural painting, mechanical structure painting, and electrical equipment coatings, IVCE also provides comprehensive services in general maintenance, repair, and rehabilitation. The company excels in repairing and rehabilitating high-rise structures, ensuring their protection and extending their lifespan. These services are available on a turnkey basis or through contractual arrangements.</p>
+                           <!-- <div class="cta">
                               <a href="about.php" class="btn--primary mt-4">Read More</a>
-                           </div>
+                           </div> -->
                         </div>
                      </div>
                   </div>

@@ -35,6 +35,18 @@
 
             <li>
                 <a href="#">
+                    <i data-lucide="chart-pie"></i>
+                    <span class="nav-label">Projects</span>
+                    <span class="fa arrow"></span>
+                </a>
+                <ul class="nav nav-second-level collapse">
+                    <li><a href="addProject.php">Add Project</a></li>
+                    <li><a href="viewProject.php">View Projects</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">
                     <i data-lucide="images"></i>
                     <span class="nav-label">Gallery</span>
                     <span class="fa arrow"></span>

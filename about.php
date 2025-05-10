@@ -24,61 +24,6 @@
                </div>
             </section>
             <!-- ==== / banner end ==== -->
-            <!-- ==== about us section start ==== -->
-            <section class="about">
-               <div class="container">
-                  <div class="row vertical-column-gap-lg">
-                     <div class="col-12 col-xl-6">
-                        <div class="about__content">
-                           <div class="section__header">
-                              <span>About Us</span>
-                              <h2 class="title-animation">Ivenus Coating and Engineering </h2>
-                              <div class="icon-thumb">
-                                 <div class="icon-thumb-single">
-                                    <span></span>
-                                    <span></span>
-                                 </div>
-                                 
-                              </div>
-                           </div>
-                           <div class="about__content-inner">
-                           <p class="mb-3"><b style="color:black;">IVENUS COATING AND ENGINEERING (IVCE),</b> initially a growing organization, has flourished under the dynamic leadership of its Founder and Managing Partner, Mr. Durai Nirmal B.B.A., and Partner Mrs. N. Manjula B.C.A. Through their visionary leadership, IVCE has made a significant impact in the painting industry, incorporating advanced technology and methodologies to maintain and protect steel structures, power transformers, gantry towers, and high-rise RCC structures, effectively preventing corrosion and deterioration. </p>
-                           <p>Specializing in both external and internal applications of civil structural painting, mechanical structure painting, and electrical equipment coatings, IVCE also provides comprehensive services in general maintenance, repair, and rehabilitation. The company excels in repairing and rehabilitating high-rise structures, ensuring their protection and extending their lifespan. These services are available on a turnkey basis or through contractual arrangements. </p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-12 col-xl-6">
-                        <div class="about__thumb">
-                           <div class="about__thumb-single" data-aos="fade-right" data-aos-duration="1200">
-                              <img src="assets/images/thumb/about/one1.png" alt="Image">
-                              <div class="thumb">
-                                 <img src="assets/images/thumb/about/path-one.png" alt="Image">
-                              </div>
-                           </div>
-                           <div class="about__thumb-single" data-aos="fade-left" data-aos-duration="1200">
-                              <img src="assets/images/thumb/about/two1.png" alt="Image">
-                              <div class="thumb">
-                                 <img src="assets/images/thumb/about/path-two.png" alt="Image" class="filter-img">
-                              </div>
-                           </div>
-                           <div class="about__thumb-single" data-aos="fade-up" data-aos-duration="1200">
-                              <img src="assets/images/thumb/about/three1.png" alt="Image">
-                              <div class="thumb">
-                                 <img src="assets/images/thumb/about/path-three.png" alt="Image">
-                              </div>
-                           </div>
-                           <!-- <div class="video-btn-wrapper">
-                              <a href="https://www.youtube.com/watch?v=RvreULjnzFo" target="_blank"
-                                 title="video Player" class="open-video-popup">
-                              <i class="fa-solid fa-play"></i>
-                              </a>
-                           </div> -->
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-            <!-- ==== / about us section end ==== -->
 
             <!-- ==== service section start ==== -->
             <section class="service service-main">
@@ -157,7 +102,7 @@
                      <div class="team-details__content">
                         <div class="about-me m-0">
                            <div class="about-me__header">
-                              <h4 class="title-animation">Our Key Differentiators!</h4>
+                              <h4 class="title-animation" style="background: #FFEB3B; width: fit-content;">Our Key Differentiators!</h4>
                            </div>
                            <div class="about-me__content" data-aos="fade-up" data-aos-duration="1200">
                               <p>With over 14 years of experience in the industry, we are a multi-disciplinary painting company committed to delivering high-quality solutions. Our expertise covers a broad spectrum of services, including structural painting and repair, rehabilitation, restrengthening, as well as specialized services such as waterproofing, fireproofing, and acid-resistant painting.

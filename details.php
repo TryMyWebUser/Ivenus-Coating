@@ -71,7 +71,7 @@ include("header.php");
         </div>
     </div>
 </section>
-<?php } } else { echo "<p>Product Not Found</p>"; } ?>
+<?php } } else { echo "<p>Products Not Found</p>"; } ?>
 <!-- ==== / blog details section end ==== -->
 
 <?php
