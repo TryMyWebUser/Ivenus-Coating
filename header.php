@@ -1,3 +1,5 @@
+<?php include "libs/load.php"; $conn = Database::getConnect(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -139,35 +141,20 @@
                                                 <li class="navbar__item navbar__item--has-children nav-fade">
                                                     <a href="#" aria-label="dropdown menu"
                                                         class="navbar__dropdown-label dropdown-label-alter">Our Products</a>
+                                                    <?php
+                                                        $pro = Operations::getProductChecker($conn);
+                                                        if (!empty($pro)) {
+                                                    ?>
                                                     <ul class="navbar__sub-menu">
+                                                        <?php
+                                                            foreach ($pro as $p) {
+                                                        ?>
                                                         <li>
-                                                            <a href="details.php#1">Supply and Application of Anti-Corrosive Coatings</a>
+                                                            <a href="details.php#<?= $p['id'] ?>"><?= $p['title'] ?></a>
                                                         </li>
-                                                        <li>
-                                                            <a href="details.php#2">Scaffolding Erection and Dismantling Works</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="details.php#3">High-Rise Civil Structure Painting and Repairing</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="details.php#4">Waterproofing Solutions for Structural Durability and Protection</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="details.php#5">Acid Resistance Painting Works</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="details.php#6">Sandblasting and Shot Blasting Services for Surface Preparation</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="details.php#7">Airless Spray Painting for Efficient and Uniform Coating Application</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="details.php#8">Metalizing and Surface Repair Works for Enhanced Corrosion Resistance and Restoration</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="details.php#9">Supply of All Paints & Chemicals</a>
-                                                        </li>
+                                                        <?php } ?>
                                                     </ul>
+                                                    <?php } ?>
                                                 </li>
                                                 <li class="navbar__item nav-fade">
                                                     <a href="projects.php">Projects</a>

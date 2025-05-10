@@ -21,13 +21,6 @@ class Operations
         $result = $conn->query($sql);
         return iterator_to_array($result);
     }
-
-    public static function getProductPage($page, $conn)
-    {
-        $sql = "SELECT * FROM `products` WHERE `category` = '$page'";
-        $result = $conn->query($sql);
-        return iterator_to_array($result);
-    }
     
     public static function getProduct($conn)
     {
